@@ -1,3 +1,5 @@
+![banner](banner.jpg)
+
 [English](README.md) | [中文](README_zh.md)
 
 One of Busan's most famous attractions is the capsule train. The capsule train operates at Haeundae Blue Line Park (<https://www.bluelinepark.com>). Besides the capsule train (Sky Capsule), Blue Line Park also features a vintage train called the Beach Train. The Beach Train has seven stations:

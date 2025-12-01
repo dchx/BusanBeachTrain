@@ -1,3 +1,5 @@
+![banner](banner.jpg)
+
 [English](README.md) | [中文](README_zh.md)
 
 釜山最出名的景点之一是胶囊小火车。胶囊小火车在海云台蓝线公园（blue line park; <https://www.bluelinepark.com>）。蓝线公园除了胶囊小火车（天空胶囊；sky capsule）还有复古大火车（海滨列车；beach train）。海滨列车有7个车站，分别是：
