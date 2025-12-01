@@ -1,0 +1,74 @@
+Start solving the railway travel optimization problem...
+==================================================
+When x = 0 (at most 0 sections of each walk):
+  Best result: Maximum number of riding sections = 27, Minimum number of walking sections = 0
+  Plan details:
+    Step 1: Board at (D) Cheongsapo, ride for 3 sections and disembark at (A) Mipo.
+           (Cumulative ride: 3, Cumulative walk: 0)
+    Step 2: Board at (A) Mipo, ride for 4 sections and disembark at (E) Daritdol Skywalk.
+           (Cumulative ride: 7, Cumulative walk: 0)
+    Step 3: Board at (E) Daritdol Skywalk, ride for 3 sections and disembark at (B) Dalmaji Tunnel.
+           (Cumulative ride: 10, Cumulative walk: 0)
+    Step 4: Board at (B) Dalmaji Tunnel, ride for 4 sections and disembark at (F) Gudeokpo.
+           (Cumulative ride: 14, Cumulative walk: 0)
+    Step 5: Board at (F) Gudeokpo, ride for 3 sections and disembark at (C) Haeworl Skywalk.
+           (Cumulative ride: 17, Cumulative walk: 0)
+    Step 6: Board at (C) Haeworl Skywalk, ride for 4 sections and disembark at (G) Songjeong.
+           (Cumulative ride: 21, Cumulative walk: 0)
+    Step 7: Board at (G) Songjeong, ride for 6 sections and disembark at (A) Mipo.
+           (Cumulative ride: 27, Cumulative walk: 0)
+--------------------------------------------------
+When x = 1 (at most 1 sections of each walk):
+  Best result: Maximum number of riding sections = 31, Minimum number of walking sections = 4
+  Plan details:
+    Step 1: Board at (D) Cheongsapo, ride for 3 sections and disembark at (A) Mipo.
+           (Cumulative ride: 3, Cumulative walk: 0)
+    Step 2: Board at (A) Mipo, ride for 5 sections and disembark at (F) Gudeokpo.
+           (Cumulative ride: 8, Cumulative walk: 0)
+    Step 3: Walk from (F) Gudeokpo for 1 sections to (E) Daritdol Skywalk. Then, Board at (E) Daritdol Skywalk, ride for 4 sections and disembark at (A) Mipo.
+           (Cumulative ride: 12, Cumulative walk: 1)
+    Step 4: Walk from (A) Mipo for 1 sections to (B) Dalmaji Tunnel. Then, Board at (B) Dalmaji Tunnel, ride for 5 sections and disembark at (G) Songjeong.
+           (Cumulative ride: 17, Cumulative walk: 2)
+    Step 5: Walk from (G) Songjeong for 1 sections to (F) Gudeokpo. Then, Board at (F) Gudeokpo, ride for 4 sections and disembark at (B) Dalmaji Tunnel.
+           (Cumulative ride: 21, Cumulative walk: 3)
+    Step 6: Walk from (B) Dalmaji Tunnel for 1 sections to (C) Haeworl Skywalk. Then, Board at (C) Haeworl Skywalk, ride for 4 sections and disembark at (G) Songjeong.
+           (Cumulative ride: 25, Cumulative walk: 4)
+    Step 7: Board at (G) Songjeong, ride for 6 sections and disembark at (A) Mipo.
+           (Cumulative ride: 31, Cumulative walk: 4)
+--------------------------------------------------
+When x = 2 (at most 2 sections of each walk):
+  Best result: Maximum number of riding sections = 33, Minimum number of walking sections = 6
+  Plan details:
+    Step 1: Board at (D) Cheongsapo, ride for 3 sections and disembark at (A) Mipo.
+           (Cumulative ride: 3, Cumulative walk: 0)
+    Step 2: Board at (A) Mipo, ride for 6 sections and disembark at (G) Songjeong.
+           (Cumulative ride: 9, Cumulative walk: 0)
+    Step 3: Walk from (G) Songjeong for 2 sections to (E) Daritdol Skywalk. Then, Board at (E) Daritdol Skywalk, ride for 4 sections and disembark at (A) Mipo.
+           (Cumulative ride: 13, Cumulative walk: 2)
+    Step 4: Walk from (A) Mipo for 1 sections to (B) Dalmaji Tunnel. Then, Board at (B) Dalmaji Tunnel, ride for 5 sections and disembark at (G) Songjeong.
+           (Cumulative ride: 18, Cumulative walk: 3)
+    Step 5: Walk from (G) Songjeong for 1 sections to (F) Gudeokpo. Then, Board at (F) Gudeokpo, ride for 5 sections and disembark at (A) Mipo.
+           (Cumulative ride: 23, Cumulative walk: 4)
+    Step 6: Walk from (A) Mipo for 2 sections to (C) Haeworl Skywalk. Then, Board at (C) Haeworl Skywalk, ride for 4 sections and disembark at (G) Songjeong.
+           (Cumulative ride: 27, Cumulative walk: 6)
+    Step 7: Board at (G) Songjeong, ride for 6 sections and disembark at (A) Mipo.
+           (Cumulative ride: 33, Cumulative walk: 6)
+--------------------------------------------------
+When x = 3 (at most 3 sections of each walk):
+  Best result: Maximum number of riding sections = 33, Minimum number of walking sections = 6
+  Plan details:
+    Step 1: Board at (D) Cheongsapo, ride for 3 sections and disembark at (A) Mipo.
+           (Cumulative ride: 3, Cumulative walk: 0)
+    Step 2: Board at (A) Mipo, ride for 6 sections and disembark at (G) Songjeong.
+           (Cumulative ride: 9, Cumulative walk: 0)
+    Step 3: Walk from (G) Songjeong for 2 sections to (E) Daritdol Skywalk. Then, Board at (E) Daritdol Skywalk, ride for 4 sections and disembark at (A) Mipo.
+           (Cumulative ride: 13, Cumulative walk: 2)
+    Step 4: Walk from (A) Mipo for 1 sections to (B) Dalmaji Tunnel. Then, Board at (B) Dalmaji Tunnel, ride for 5 sections and disembark at (G) Songjeong.
+           (Cumulative ride: 18, Cumulative walk: 3)
+    Step 5: Walk from (G) Songjeong for 1 sections to (F) Gudeokpo. Then, Board at (F) Gudeokpo, ride for 5 sections and disembark at (A) Mipo.
+           (Cumulative ride: 23, Cumulative walk: 4)
+    Step 6: Walk from (A) Mipo for 2 sections to (C) Haeworl Skywalk. Then, Board at (C) Haeworl Skywalk, ride for 4 sections and disembark at (G) Songjeong.
+           (Cumulative ride: 27, Cumulative walk: 6)
+    Step 7: Board at (G) Songjeong, ride for 6 sections and disembark at (A) Mipo.
+           (Cumulative ride: 33, Cumulative walk: 6)
+--------------------------------------------------
